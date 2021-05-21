@@ -22,7 +22,7 @@ input{
     font-size: 25px;
     padding: 8px 16px;
     text-align: right;
-    /* border: none; */
+    border: none;
     outline: none;
 }
 #buttonsarea{
@@ -43,7 +43,7 @@ button:hover{
 }
 
 #answer{
-    font-size: 18px;
+    font-size: 20px;
     text-align: right;
     opacity: 0.5;
 }
