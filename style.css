@@ -18,7 +18,7 @@ main{
 /* dealing with the input tag */
 input{
     width: 100%;
-    font-weight: bold;
+    font-weight: 400;
     font-size: 25px;
     padding: 8px 16px;
     text-align: right;

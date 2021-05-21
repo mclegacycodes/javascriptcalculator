@@ -7,6 +7,14 @@ var display = document.getElementById("display");
 //function to display number when key is pressed
 keys.forEach(key => key.addEventListener('click',function(e){
 
+    //when del key is pressed, clear the display screen
     
-display.value+= key.innerText;
+if(key.innerText=="DEL"){
+    display.value="";
+}else{
+    //console.log(e.target.dataset.action);
+    display.value+= key.innerText;
+}
+    
+
 }))
