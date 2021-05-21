@@ -13,8 +13,8 @@
    <main align="center" class="container">
 
     <!-- display input and output here -->
-       <div id="display">
-        <input type="text" value="0" >
+       <div id="display-section">
+        <input   maxlength="10" id="display">
         <p id="answer">0000</p>
        </div>
 
@@ -22,30 +22,31 @@
        <!-- buttons area -->
        <section id="buttonsarea">
         <div class="btn-div row">
-            <button class="col-3 p-4">7</button>
-            <button class="col-3 p-4">8</button>
-            <button class="col-3 p-4">9</button>
-            <button class="col-3 last p-4">DEL</button>
+            <button class="col-3 p-4" data-value="7">7</button>
+            <button class="col-3 p-4" data-value="8">8</button>
+            <button class="col-3 p-4" data-value="9">9</button>
+            <button class="col-3 last p-4" data-action="del">DEL</button>
         </div>
         <div class="btn-div row">
-            <button class="col-3 p-4">4</button>
-            <button class="col-3 p-4">5</button>
-            <button class="col-3 p-4">6</button>
-            <button class="col-3 last p-4">÷</button>
+            <button class="col-3 p-4" data-value="4">4</button>
+            <button class="col-3 p-4" data-value="5">5</button>
+            <button class="col-3 p-4" data-value="6">6</button>
+            <button class="col-3 last p-4" data-action="/">÷</button>
         </div>
         <div class="btn-div row">
-            <button class="col-3 p-4">1</button>
-            <button class="col-3 p-4">2</button>
-            <button class="col-3 p-4">3</button>
-            <button class="col-3 last p-4">x</button>
+            <button class="col-3 p-4" data-value="1">1</button>
+            <button class="col-3 p-4" data-value="2">2</button>
+            <button class="col-3 p-4" data-value="3">3</button>
+            <button class="col-3 last p-4" data-action="*">x</button>
         </div>
         <div class="btn-div row">
-            <button class="col-3 p-4">.</button>
-            <button class="col-3 p-4">0</button>
-            <button class="col-3 p-4">=</button>
-            <button class="col-3 last p-4">+</button>
+            <button class="col-3 p-4" data-value=".">.</button>
+            <button class="col-3 p-4" data-value="0">0</button>
+            <button class="col-3 p-4" data-action="=">=</button>
+            <button class="col-3 last p-4" data-action="+">+</button>
         </div>
        </section>
    </main>
+   <script src="index.js"></script>
 </body>
 </html>
